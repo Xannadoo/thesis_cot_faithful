@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: llama_deepseek
+Version: 0.1.0
+Summary: Chaos
+Author-email: Sanna <ccor@itu.dk>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: ollama==0.4.4
+Requires-Dist: python-dotenv==1.0.0

@@ -1,0 +1,3 @@
+[console_scripts]
+run-tests = src.main:run_tests
+start-chat = src.main:main

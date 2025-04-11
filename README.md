@@ -1,2 +1,3 @@
-# thesis_cot_faithful
-MSc Thesis work, looking at faithfulness of reasoning models chain-of-thought reporting
+# MSc Thesis project
+
+## Is chain-of-thought reasoning faithful to actual reasoning processes?
