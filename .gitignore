@@ -2,3 +2,7 @@ data/*
 keys*
 /models/*
 !outputs
+*.tar
+too_short_context/*
+*pycache*
+tokenizer*

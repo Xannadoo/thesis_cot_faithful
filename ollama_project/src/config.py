@@ -1,3 +1,1 @@
-OLLAMA_MODEL = "deepseek-r1:8b"
-
-OLLAMA_CONTEXT_LENGTH=4096
+OLLAMA_MODEL = "deepseek-r1:671b"
