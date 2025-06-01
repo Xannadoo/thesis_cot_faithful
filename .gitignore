@@ -6,3 +6,4 @@ keys*
 too_short_context/*
 *pycache*
 tokenizer*
+unused*
