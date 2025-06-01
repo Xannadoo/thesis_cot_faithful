@@ -6,6 +6,8 @@ Chain-of-Thought (CoT) reasoning promises to enhance the performance and transpa
 This paper extends previous work by probing Deepseek R1 with 445 logical puzzles under zero- and few-shot settings. 
 We find that whilst the model explicitly acknowledges a strong harmful hint in 94.6\% of cases, it reports less than 2\% of helpful hints. Further analysis reveals implicit *unfaithfulness* as the model significantly reduces answer-rechecking behaviour for helpful hints (p<0.01) despite rarely mentioning them in its CoT, demonstrating a discrepancy between its *reported* reasoning and the *actual* decision process, a smoking gun that the CoT is not entirely faithful. Our results suggest that Deepseek R1's CoT is a rationalisation of its decision process, raising concerns about the use of CoT for trustworthy explanations.
 
+Python 3.11.11 was used for this analysis and other requirements can be found in [requirements.txt](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/requirements.txt). 
+
 The data used was sampled from [Turpin et al](https://github.com/milesaturpin/cot-unfaithfulness/tree/main?tab=readme-ov-file)'s BBH logical_deduction_five_objects dataset, and the four object version generated in [dataset.ipynb](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/data_set.ipynb).
 
 [Ollama Project](https://github.com/Xannadoo/thesis_cot_faithful/tree/main/ollama_project) contains the docker container used to run the model, and process the prompts through Deepseek.
