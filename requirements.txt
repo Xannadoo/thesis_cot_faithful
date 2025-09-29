@@ -46,8 +46,6 @@ jupyterlab_widgets==3.0.14
 kiwisolver==1.4.8
 langcodes==3.5.0
 language_data==1.3.0
-# Editable install with no version control (llama_deepseek==0.1.0)
--e /mnt/c/Users/Chrisanna Cornish/Documents/DataScience/MSc/Thesis/ollama_project
 marisa-trie==1.2.1
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2

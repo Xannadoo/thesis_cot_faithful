@@ -8,10 +8,3 @@ We find that whilst the model explicitly acknowledges a strong harmful hint in 9
 
 Python 3.11.11 was used for this analysis and other requirements can be found in [requirements.txt](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/requirements.txt). 
 
-The data used was sampled from [Turpin et al](https://github.com/milesaturpin/cot-unfaithfulness/tree/main?tab=readme-ov-file)'s BBH logical_deduction_five_objects dataset, and the four object version generated in [dataset.ipynb](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/data_set.ipynb).
-
-[Ollama Project](https://github.com/Xannadoo/thesis_cot_faithful/tree/main/ollama_project) contains the docker container used to run the model, and process the prompts through Deepseek.
-
-[EDA](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/EDA.ipynb) is an exploration of the dataset properties.
-
-[Analysis2](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/Analysis2.ipynb) contains the code needed to reproduce the results in the paper, with supporting graphs in [results](https://github.com/Xannadoo/thesis_cot_faithful/blob/main/results_display.ipynb)
