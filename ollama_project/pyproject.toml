@@ -7,7 +7,7 @@ name = "llama_deepseek"
 version = "0.1.0"
 description = "Chaos"
 readme = "README.md"
-authors = [{name = "Sanna", email = "ccor@itu.dk"}]
+authors = [{name = "XXX", email = "XXX"}]
 license = {text = "MIT"}
 dependencies = [
     "ollama==0.4.4",
