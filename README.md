@@ -1,5 +1,3 @@
-# MSc Thesis project
-
 ## Examining the Faithfulness of Deepseek R1’s Chain-of-Thought Reasoning
 
 Chain-of-Thought (CoT) reasoning promises to enhance the performance and transparency of Large Language Models (LLMs). Models, such as Deepseek R1, are trained via reinforcement learning to automatically generate CoT explanations in their outputs. Their *faithfulness*, how well the explanations actually reflect their internal reasoning process, has been called into doubt by recent papers, such as those by [Chen et al 2025](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf) and [Chua and Evans 2025](http://arxiv.org/abs/2501.08156).
